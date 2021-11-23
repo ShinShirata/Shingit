@@ -65,7 +65,7 @@ if option==('寿司'):
     img = Image.open('susi.jpg')
     st.image(img,caption='',use_column_width=True)
     option=st.radio('貴方のお役に立てたでしょうか？',('-','       はい','       いいえ',))
-if option==('       はい'):
+if option==('      はい'):
     st.write('貴方のお役に立てて光栄です♪')
 if option==('      いいえ'):
      st.write('貴方のお役に立てられず不甲斐ないです(´･ω･｀)')
